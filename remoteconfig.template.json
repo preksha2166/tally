@@ -1,0 +1,8 @@
+{
+  "parameters": {
+    "cloud_grade_model": { "defaultValue": { "value": "gemini-3.5-flash-lite" }, "valueType": "STRING", "description": "Cloud model used when Gemini Nano is not available (pseudonymized grading)." },
+    "cloud_feedback_model": { "defaultValue": { "value": "gemini-3.5-flash-lite" }, "valueType": "STRING", "description": "Cloud model for feedback drafts when Nano is not available." },
+    "cloud_insights_model": { "defaultValue": { "value": "gemini-3.8-flash" }, "valueType": "STRING", "description": "Cloud model for class-wide insights (anonymized aggregates only)." },
+    "max_device_chars": { "defaultValue": { "value": "6000" }, "valueType": "NUMBER", "description": "Answers longer than this skip Gemini Nano (its context is about 9K tokens)." }
+  }
+}

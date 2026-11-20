@@ -1,0 +1,11 @@
+{
+  "name": "TAlly: private grading copilot",
+  "short_name": "TAlly",
+  "description": "Grade on your laptop with Gemini Nano, see each student's strengths and gaps, and send personal feedback.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#1f2b5e",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
